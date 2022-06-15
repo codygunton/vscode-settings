@@ -168,6 +168,8 @@
     "testMate.cpp.test.workingDirectory": "${workspaceFolder}/barretenberg/build",
     "debug.disassemblyView.showSourceCode": true,
     "debug.showInStatusBar": "never",
-    "lldb.launch.relativePathBase": "${workspaceFolder}/barretenberg/build"
-    "workbench.editor.showTabs": true
+    "lldb.launch.relativePathBase": "${workspaceFolder}/barretenberg/build",
+    "workbench.editor.showTabs": true,
+    "lldb.displayFormat": "hex",
+    // "lldb.launch.cwd": "${workspaceFolder}" // was "lldb.launch.cwd": "${workspaceFolder}" 
 }
